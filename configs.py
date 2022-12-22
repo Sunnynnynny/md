@@ -7,14 +7,14 @@ import os
 class Config(object):
     API_ID = int(os.environ.get("API_ID", 12345))
     API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "MdiskSearchBot")
-    USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
-    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
-    BOT_USERNAME = os.environ.get("BOT_USERNAME")
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
-    DATABASE_URL = os.environ.get("DATABASE_URL")
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5760300147:AAH99Uszbnfg6oF_8eAH8KY49inaTmLO7b0")
+    BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "Mr Raajput")
+    USER_SESSION_STRING = os.environ.get("1BVtsOHsBu775gsUR7yBhdlgj6lGWW1dqLIoKj4CGkHd5MUrT80U4fEdizAB2ANpYmOJVDT3L9byBriDiNV8JFsVNAdbQRPBdototX2qtAs6YHpqmGUFCoNDsIOvGswurSRRTSHwmhKszJHRORPxneMaPuyJk4e1OHiVS-LIdxlZMzsB0qpeqJ45qaE1fjLp9VulNGjcPWOAnh0Po6kCZz2A6xp_tupW-cWV9ZstPIPTSKj-XvCgzaZQ0xjs_ihBtmdiaAAh9H417eiWn14oym4bgN9XVlhQDjH74nmezZwEvb1tTkFVRmSbEtpX93MS6ICDV2_Xbczun2BXFiLxy2UbYd--wkuo=", "")
+    CHANNEL_ID = int(os.environ.get("-1001749360943", -100))
+    BOT_USERNAME = os.environ.get("mRaajbot")
+    BOT_OWNER = int(os.environ.get("5773749356"))
+    DATABASE_URL = os.environ.get("mongodb+srv://sunny:sunny7869@sunny.mvcfc1g.mongodb.net/?retryWrites=true&w=majority")
+    UPDATES_CHANNEL = os.environ.get("-1001847905195", None)
     ABOUT_BOT_TEXT = """<b> <a href='https://t.me/LazyUrlHunterrBOT'>Lazy Url Hunterr</a> is an open source project.
 
     Devs: 
